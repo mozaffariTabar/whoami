@@ -1,0 +1,98 @@
+.pe {
+  font-family: iransans;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/iranSansWeb/IRANSansWeb_Medium.eot");
+  src: url("../fonts/iranSansWeb/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/iranSansWeb/IRANSansWeb_Medium.woff2") format("woff2"), url("../fonts/iranSansWeb/IRANSansWeb_Medium.woff") format("woff"), url("../fonts/iranSansWeb/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/iranSansWeb/IRANSansWeb.eot");
+  src: url("../fonts/iranSansWeb/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/iranSansWeb/IRANSansWeb.woff2") format("woff2"), url("../fonts/iranSansWeb/IRANSansWeb.woff") format("woff"), url("../fonts/iranSansWeb/IRANSansWeb.ttf") format("truetype");
+}
+
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  30% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  30% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes limit-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes limit-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+/*# sourceMappingURL=props.css.map */

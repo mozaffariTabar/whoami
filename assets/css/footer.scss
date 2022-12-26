@@ -1,0 +1,14 @@
+footer {
+    background-color: #101521;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        color: red;
+        margin: 0 5px;
+        animation: beat 1s infinite;
+    }
+}

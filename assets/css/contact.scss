@@ -1,0 +1,63 @@
+#contact {
+
+    li {
+        float: left;
+        display: block;
+        letter-spacing: 1px;
+        width: 33.333%;
+        @include light-text-shadow;
+        text-decoration: none;
+        color: #ddd;
+        outline: none;
+        text-transform: capitalize;
+        cursor: pointer;
+
+        span {
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 1.5em;
+            color: $white;
+        }
+    }
+
+    ol {
+        display: block;
+        text-transform: capitalize;
+        list-style-type: square;
+        list-style: square;
+        margin-block-start: 4px;
+        margin-block-end: 4px;
+        position: relative;
+        cursor: pointer;
+
+        &:nth-child(n + 6) {
+            display: none;
+        }
+
+        i {
+            font-size: .5em;
+        }
+    }
+
+    a {
+        display: block;
+        margin: 5px 0;
+        transition: margin-left 0.2s;
+
+        &:hover {
+            margin-left: 2px;
+            color: $white;
+        }
+
+        mark {
+            color: transparentize($white, 0.7);
+            background-color: unset;
+        }
+
+        i {
+            color: $cyan;
+            padding: 0 10px 0 0;
+        }
+    }
+}

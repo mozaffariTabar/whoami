@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,sDAAsD;EAC3D,GAAG,EAAE,4DAA4D,CAAC,2BAA2B,EACzF,sDAAsD,CAAC,kBAAkB,EACzE,uDAAuD,CAAC,cAAc,EACtE,8DAA8D,CAAC,aAAa;EAChF,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,KAAK",
+    "sources": [
+        "iransans_font.scss"
+    ],
+    "names": [],
+    "file": "iransans_font.css"
+}

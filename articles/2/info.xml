@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <reference>https://git-scm.com/docs/git-cherry-pick</reference>
+    <translator>hadi mozaffari tabar</translator>
+    <title>mern</title>
+    <title_full>what is MERN ?</title_full>
+    <root>MongoDB / Express / React / Nodejs</root>
+    <tags>mongodb,express,react,nodejs</tags>
+</note>

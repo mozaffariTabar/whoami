@@ -1,0 +1,207 @@
+#demo {
+  float: left;
+  width: 100%;
+  text-align: left;
+  direction: ltr;
+}
+
+#demo #help {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 150%;
+  color: #d6d3d3;
+  position: absolute;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#demo #jsMenu {
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #e6e5e5;
+  padding: 10px;
+}
+
+#demo textarea {
+  height: 100px;
+  width: 80%;
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  border: 0;
+  float: left;
+}
+
+#demo span {
+  width: calc(20% - 15px);
+  float: right;
+  vertical-align: top;
+}
+
+#demo span button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #8a8a8a;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+#demo span button:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+#demo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 210px;
+}
+
+#demo ul:first-child {
+  position: relative;
+  margin-left: 0;
+  display: block;
+}
+
+#demo ul li {
+  background-color: #fff;
+  padding: 10px 5px;
+  width: 200px;
+  border-bottom: 1px solid #999;
+  position: relative;
+  min-height: 40px;
+}
+
+#demo ul li input {
+  width: 148px;
+  border: unset;
+  position: absolute;
+  left: 40px;
+  top: 0;
+  height: 39px;
+  padding: 5px;
+}
+
+#demo ul li input:focus {
+  outline: none;
+  background-color: rgba(0, 255, 0, 0.144);
+}
+
+#demo ul li i {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #d4d2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+}
+
+#demo ul li i.disable {
+  cursor: context-menu;
+}
+
+#demo ul li > i:hover {
+  background-color: #bebdbd;
+}
+
+#demo ul li .controller {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 12px;
+}
+
+#demo ul li .controller i {
+  width: 100%;
+  height: 33.33%;
+  color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f7f7;
+}
+
+#demo ul li .controller i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#demo ul li .controller i.icon-cross {
+  font-size: .4em !important;
+}
+
+#demo ul li:hover > ul,
+#demo ul li:focus > ul {
+  display: block;
+}
+
+#demo .disable {
+  opacity: 0.2;
+  background-color: #f00 !important;
+}
+
+#demo input::-webkit-input-placeholder,
+#demo textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+#demo input:-ms-input-placeholder,
+#demo textarea:-ms-input-placeholder {
+  color: #ccc;
+}
+
+#demo input::-ms-input-placeholder,
+#demo textarea::-ms-input-placeholder {
+  color: #ccc;
+}
+
+#demo input::placeholder,
+#demo textarea::placeholder {
+  color: #ccc;
+}
+/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <title>rebase</title>
+    <title_full>what git rebase do ?</title_full>
+    <root>GIT / Version Control System</root>
+    <tags>git,rebase</tags>
+    <date>2020-05-24</date>
+    <author>توسعه دهنده اصلی نرم افزار</author>
+    <translator>هادی مظفری تبار</translator>
+    <source>
+        <title>git-scm.com</title>
+        <link>https://git-scm.com/docs/git-cherry-pick</link>
+    </source>
+</note>

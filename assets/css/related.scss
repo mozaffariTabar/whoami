@@ -1,0 +1,112 @@
+@import 'props';
+
+#relative {
+    background-color: $cyan;
+
+    .container {
+        >div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    a.card {
+        width: calc(33.333% - 14px);
+        float: left;
+        margin: 0 0 0 21px;
+        cursor: pointer;
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &:hover {
+            transform: scale(1.03, 1.03);
+            background-color: transparentize($white, 0.1);
+            box-shadow: 1px 1px 20px transparentize($blue, 0.8);
+
+            .text {
+                border: 1px solid $yellow;
+            }
+
+            .title {
+                background-color: transparentize($white, 0.1);
+            }
+
+            .cover {
+                background-color: transparentize($cyan, 0.5);
+            }
+
+            img {
+                opacity: 0.6;
+                -webkit-filter: grayscale(10%);
+                filter: grayscale(10%);
+            }
+        }
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+
+        img {
+            width: 100%;
+            opacity: 0.3;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+        .cover {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparentize($yellow, 0.7);
+            z-index: 2;
+            opacity: 0.5;
+            display: none;
+        }
+
+        .text {
+            position: absolute;
+            width: 80%;
+            display: block;
+            height: 50%;
+            border: 1px solid $white;
+            z-index: 3;
+        }
+
+        .title {
+            background-color: transparentize($white, 0.3);
+            font-size: 2.5em;
+            color: $blue;
+            white-space: nowrap;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        .root {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            color: $blue;
+            font-size: 0.9em;
+            border: 1px solid $white;
+            padding: 2px 10px;
+            background-color: $yellow;
+            white-space: nowrap;
+            max-width: unset;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <reference>https://git-scm.com/docs/git-cherry-pick</reference>
+    <translator>hadi mozaffari tabar</translator>
+    <title>cherry-pick</title>
+    <title_full>why should we use GIT cherry-pick ?</title_full>
+    <root>GIT / Version Control System</root>
+    <tags>git</tags>
+</note>
